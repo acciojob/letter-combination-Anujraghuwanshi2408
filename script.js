@@ -1,4 +1,4 @@
-function letterCombinations(input_digit) {
+function letterCombinations(input) {
   //Complete the function
 	let table = {
     "2" : "abc",
@@ -27,6 +27,7 @@ function solve(currentIndex, calculatedString) {
         // solve(0 + 1, "" + "d")
     }
 }
+	solve(0, "")
 	return solutions;
 }
 
